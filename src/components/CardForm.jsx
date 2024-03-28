@@ -1,5 +1,4 @@
 import React from "react"
-import "./CardForm.css"
 import { useState } from "react"
 import Success from "./Success"
 
@@ -156,8 +155,8 @@ const CardForm = ({
                 type="text"
                 pattern="\d*"
                 maxLength={2}
-                name="name"
-                id="name"
+                name="year"
+                id="year"
                 placeholder="YY"
                 value={year}
                 onChange={(e) => {
